@@ -68,15 +68,14 @@ class StyleGuide:
 
 # ── Prompts ───────────────────────────────────────────────────────────────────
 
-_PATTERN_EXTRACTION_PROMPT = """
-You are an expert at analysing how legal document drafts are improved by operators.
+_PATTERN_EXTRACTION_PROMPT = """You are an expert at analysing how legal document drafts are improved by operators.
 
 You will be given:
 1. A SYSTEM DRAFT (what an AI generated)
 2. AN OPERATOR-EDITED VERSION (what a lawyer/processor corrected it to)
 3. KEY EDITS (a list of what changed and why, provided by the operator)
 
-Your task: extract REUSABLE STYLE PATTERNS — general rules that can be applied
+Your task: extract REUSABLE STYLE PATTERNS - general rules that can be applied
 to ANY draft of this type (or any draft type) to make it better.
 
 For each pattern:
@@ -84,62 +83,42 @@ For each pattern:
 - Write it as a clear instruction the AI should follow
 - Make it concrete and actionable, NOT vague
 
-Return ONLY valid JSON as a list:
-[
-  {
-    "name": "<short pattern name>",
-    "description": "<concrete instruction for the AI to follow>"
-  },
-  ...
-]
+Return ONLY valid JSON as a list of objects, each with "name" and "description" keys.
+Example: [{"name": "Use labeled sections", "description": "Always organize output into clearly labeled sections"}]
 
 Aim for 6-10 high-quality patterns. Avoid redundancy.
 
 ---
 SYSTEM DRAFT:
-{system_draft}
+%(system_draft)s
 
 OPERATOR-EDITED VERSION:
-{operator_version}
+%(operator_version)s
 
 KEY EDITS PROVIDED BY OPERATOR:
-{key_edits}
+%(key_edits)s
 """
 
-_SCORING_PROMPT = """
-You are evaluating the quality of a legal case management draft document.
+_SCORING_PROMPT = """You are evaluating the quality of a legal case management draft document.
 
 Score the draft on each of the following criteria (0-3 each):
 
-1. SECTION STRUCTURE — Are there clearly labeled sections (e.g. LIENS, TAX STATUS, ACTION ITEMS)?
-2. INSTRUMENT NUMBERS — Are recording instrument numbers included for all liens and encumbrances?
-3. ACTION FLAGS — Are items requiring attorney attention explicitly flagged (ACTION REQUIRED)?
-4. PRIORITIZATION — Are action items ranked by urgency (URGENT, HIGH, NORMAL)?
-5. CROSS-DOC SYNTHESIS — Does the draft connect information from multiple source documents?
-6. COMPLETENESS — Are all key facts from source documents included (contacts, dates, amounts)?
-7. REVIEWER NOTES — Is there a section with actionable attorney guidance?
-8. CITATION QUALITY — Are claims attributed to source documents?
+1. SECTION STRUCTURE - Are there clearly labeled sections (e.g. LIENS, TAX STATUS, ACTION ITEMS)?
+2. INSTRUMENT NUMBERS - Are recording instrument numbers included for all liens and encumbrances?
+3. ACTION FLAGS - Are items requiring attorney attention explicitly flagged (ACTION REQUIRED)?
+4. PRIORITIZATION - Are action items ranked by urgency (URGENT, HIGH, NORMAL)?
+5. CROSS-DOC SYNTHESIS - Does the draft connect information from multiple source documents?
+6. COMPLETENESS - Are all key facts from source documents included (contacts, dates, amounts)?
+7. REVIEWER NOTES - Is there a section with actionable attorney guidance?
+8. CITATION QUALITY - Are claims attributed to source documents?
 
 Scoring guide: 0=absent, 1=partial/weak, 2=good, 3=excellent
 
-Return ONLY valid JSON:
-{{
-  "scores": {{
-    "section_structure": <0-3>,
-    "instrument_numbers": <0-3>,
-    "action_flags": <0-3>,
-    "prioritization": <0-3>,
-    "cross_doc_synthesis": <0-3>,
-    "completeness": <0-3>,
-    "reviewer_notes": <0-3>,
-    "citation_quality": <0-3>
-  }},
-  "total": <sum>,
-  "summary": "<2-3 sentence assessment>"
-}}
+Return ONLY valid JSON. Use exactly this structure (replace 0s with real scores):
+{"scores": {"section_structure": 0, "instrument_numbers": 0, "action_flags": 0, "prioritization": 0, "cross_doc_synthesis": 0, "completeness": 0, "reviewer_notes": 0, "citation_quality": 0}, "total": 0, "summary": "your 2-3 sentence assessment here"}
 
 DRAFT TO EVALUATE:
-{draft_text}
+%(draft_text)s
 """
 
 
@@ -152,11 +131,11 @@ def extract_patterns_from_edit(
     """
     Analyse one before/after edit pair and extract reusable patterns.
     """
-    prompt = _PATTERN_EXTRACTION_PROMPT.format(
-        system_draft=edit["system_draft"],
-        operator_version=edit["operator_edited_version"],
-        key_edits=json.dumps(edit["key_edits"], indent=2),
-    )
+    prompt = _PATTERN_EXTRACTION_PROMPT % {
+        "system_draft": edit["system_draft"],
+        "operator_version": edit["operator_edited_version"],
+        "key_edits": json.dumps(edit["key_edits"], indent=2),
+    }
 
     response = client.chat.completions.create(
         model=GROQ_MODEL,
@@ -232,7 +211,7 @@ def score_draft(client: Groq, draft_text: str) -> dict[str, Any]:
     Score a draft on 8 quality dimensions using Groq as an evaluator.
     Returns a dict with scores, total, and summary.
     """
-    prompt = _SCORING_PROMPT.format(draft_text=draft_text[:6000])  # truncate for token budget
+    prompt = _SCORING_PROMPT % {"draft_text": draft_text[:6000]}  # truncate for token budget
 
     response = client.chat.completions.create(
         model=GROQ_MODEL,

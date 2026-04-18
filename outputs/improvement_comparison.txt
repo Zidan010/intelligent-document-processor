@@ -1,0 +1,121 @@
+======================================================================
+IMPROVEMENT DEMONSTRATION — SIDE BY SIDE COMPARISON
+======================================================================
+
+STYLE RULES APPLIED (learned from operator edits):
+  • Always include county and state in the property address section
+  • Organize output into clearly labeled sections (e.g. LIENS, TAX STATUS, OWNERSHIP, OTHER MATTERS, REVIEWER NOTES)
+  • Include instrument numbers and recording details for every lien and encumbrance
+  • Add context to each lien, such as 'First Mortgage' and status, e.g. 'ASSIGNED'
+  • Highlight items that require action or review, using 'ACTION REQUIRED' or similar notation
+  • Separate tax information into its own section, including delinquency status and special assessments
+  • Add a section for reviewer notes, including actionable items that the attorney should address
+  • Include information to show a clean chain of title, such as prior owner and mortgage satisfaction
+  • Cross-reference external information, such as servicing transfer emails, to ensure accuracy and completeness
+  • Highlight delinquent taxes and other items that require attention, using 'DELINQUENT' or similar notation
+  • Always specify the date the document was prepared
+  • Include court name, case number, and judge's name in the document
+  • Organize tasks by urgency and importance using clear labels like URGENT, HIGH, and NORMAL
+  • Connect deadlines with specific filing requirements and actions needed
+  • Create a dedicated section for title concerns and potential issues
+  • Specify what action needs to be taken by each deadline, rather than just listing dates
+  • Connect and integrate information from all relevant documents into a cohesive narrative
+  • Provide servicer contact information, including address and any relevant changes
+  • Clearly state the current payoff amount and the date it was last updated
+
+======================================================================
+SCORES
+======================================================================
+  Baseline : 12/24
+  Improved : 14/24
+  Delta    : +2
+
+Baseline breakdown:
+    section_structure: 3
+    instrument_numbers: 0
+    action_flags: 2
+    prioritization: 0
+    cross_doc_synthesis: 2
+    completeness: 2
+    reviewer_notes: 1
+    citation_quality: 2
+
+Improved breakdown:
+    section_structure: 3
+    instrument_numbers: 1
+    action_flags: 2
+    prioritization: 1
+    cross_doc_synthesis: 2
+    completeness: 2
+    reviewer_notes: 1
+    citation_quality: 2
+
+======================================================================
+BASELINE DRAFT
+======================================================================
+Document Checklist — Rodriguez, Carlos A. (2025-FC-08891)
+
+## DOCUMENTS ON FILE
+1. Title search page 1 [Source: title_search_page1, chunk 0] - Covers: Schedule B exceptions from title search, Effective Date: February 28, 2026
+2. Title search page 2 [Source: title_search_page1, chunk 4] - Covers: Legal description, tax info, judgment search results, Effective Date: NOT FOUND IN SOURCE DOCUMENTS
+3. Servicer email [Source: servicer_email, chunk 2] - Covers: Servicing transfer notice with multiple instructions, Effective Date: NOT FOUND IN SOURCE DOCUMENTS
+4. Court order [Source: court_order, chunk 1] - Covers: Case management conference order, Effective Date: March 10, 2026
+
+## DOCUMENTS REQUIRED BUT NOT YET FILED
+1. Case Management Report [Source: court_order, chunk 2] - Required to be filed 10 days prior to the case management conference
+2. Proof of service on all named defendants [Source: court_order, chunk 3] - Required to be filed by April 15, 2026
+3. Complaint [Source: servicer_email, chunk 11] - Mentioned as needing review regarding naming the HOA as a party
+
+## UPCOMING FILING DEADLINES
+1. April 12, 2026 — Case Management Report — Court
+2. April 15, 2026 — Proof of service on all named defendants — Court
+3. Before April 22, 2026 — Complaint — Court
+
+## OUTSTANDING ACTION ITEMS
+1. Review whether the HOA needs to be named as a party before filing the complaint [Source: servicer_email, chunk 11]
+2. Resubmit pending fee authorizations to the new servicer after the transfer date [Source: servicer_email, chunk 2]
+3. ACTION REQUIRED: Determine the current status of service on all defendants for the Case Management Report [Source: court_order, chunk 2]
+4. ACTION REQUIRED: Review the updated payoff amount and update records [Source: servicer_email, chunk 3]
+5. ACTION REQUIRED: Coordinate with the borrower's attorney, Rafael Mendez, for all future borrower communications [Source: servicer_email, chunk 2]
+
+======================================================================
+IMPROVED DRAFT (WITH LEARNED STYLE RULES)
+======================================================================
+Document Checklist — Rodriguez, Carlos A. (2025-FC-08891)
+
+**DOCUMENTS ON FILE**
+1. Title search page 1 [Source: title_search_page1, chunk 0] - Schedule B exceptions from title search, Effective Date: February 28, 2026
+2. Title search page 2 [Source: title_search_page2, NOT FOUND IN SOURCE DOCUMENTS] - No details available, Effective Date: NOT FOUND IN SOURCE DOCUMENTS
+3. Servicer email [Source: servicer_email, chunk 3] - Servicing transfer notice, borrower's attorney information, and payoff amount update, Effective Date: March 1, 2026
+4. Court order [Source: court_order, chunk 1] - Case management conference order, Effective Date: March 10, 2026
+
+**DOCUMENTS REQUIRED BUT NOT YET FILED**
+1. Case Management Report - Required by the court order to be filed 10 days prior to the case management conference [Source: court_order, chunk 2]
+2. Proof of service on all named defendants - Required to be filed by April 15, 2026 [Source: court_order, chunk 3]
+3. Complaint - To be filed after review of whether to name the HOA as a party [Source: servicer_email, chunk 3]
+
+**UPCOMING FILING DEADLINES**
+1. April 12, 2026 - Case Management Report to be filed with the court [Source: court_order, chunk 2]
+2. April 15, 2026 - Proof of service on all named defendants to be filed with the court [Source: court_order, chunk 3]
+3. April 22, 2026 - Case Management Conference [Source: court_order, chunk 1]
+
+**OUTSTANDING ACTION ITEMS**
+1. Review title search and update to determine if the HOA needs to be named as a party [Source: servicer_email, chunk 3]
+2. Update records with the new payoff amount of $487,920.00 as of March 1, 2026 [Source: servicer_email, chunk 3]
+3. Prepare and file the Case Management Report by April 12, 2026 [Source: court_order, chunk 2]
+4. Prepare and file proof of service on all named defendants by April 15, 2026 [Source: court_order, chunk 3]
+5. Coordinate with the borrower's attorney, Rafael Mendez, for all future communications [Source: servicer_email, chunk 2]
+6. ACTION REQUIRED: Review the court order and ensure compliance with all requirements and deadlines to avoid sanctions [Source: court_order, chunk 2]
+
+Prepared on: April 18, 2026
+
+Court Name: Miami-Dade County Courthouse
+Case Number: 2025-FC-08891
+Judge's Name: The Honorable Judge Patricia Navarro
+
+Servicer Contact Information: 
+- Current Servicer: Wells Fargo (transferring to Nationstar/Mr. Cooper effective April 1, 2026)
+- New Servicer Address and Contact: NOT FOUND IN SOURCE DOCUMENTS 
+
+Current Payoff Amount: $487,920.00
+Date Last Updated: March 1, 2026 [Source: servicer_email, chunk 3]

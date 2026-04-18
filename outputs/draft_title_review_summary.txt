@@ -1,0 +1,182 @@
+Title Review Summary — Rodriguez, Carlos A. (2025-FC-08891)
+
+Property: 15201 SW 88th Ave, Palmetto Bay, FL 33157
+County: Miami-Dade | State: FL
+Effective Date: February 8, 2021 [Source: title_search_page1, chunk 1]
+
+LIENS & ENCUMBRANCES
+1. Type: Mortgage, Party: Wells Fargo Bank, N.A., Amount: $445,000.00, Dates: February 8, 2021 (origination), February 15, 2021 (recording), Instrument Number: 2021-O123456, Status: Active
+2. Type: HOA Lien, Party: Palmetto Bay Homeowners Association, Amount: $3,420.00, Dates: January 22, 2026 (filing), Instrument Number: 2026-OO34567, Status: Active, ACTION REQUIRED: Determine if HOA needs to be named as a party in the case.
+3. Type: Easement, Party: Florida Power & Light Company, Amount: NOT FOUND IN SOURCE DOCUMENTS, Dates: NOT FOUND IN SOURCE DOCUMENTS, Instrument Number: Recorded in O.R. Book 18924, Page 445, Status: Active
+
+TAX STATUS
+Tax Years: 2024, 2025, Amounts: $7,891.00, $8,247.00, PAID/DELINQUENT Status: PAID, DELINQUENT, Parcel Number: 33-5022-014-0290, Special Assessments: $1,200.00/year (Palmetto Bay Municipal Services, current through 2025)
+
+OWNERSHIP
+Current Vesting: CARLOS A. RODRIGUEZ, a single man, Prior Owner: Maria Santos, Deed Type: Warranty deed, recorded in 2015, Prior Mortgage Satisfaction: Mortgage fully satisfied prior to conveyance to Rodriguez [Source: title_search_page2, chunk 12]
+
+OTHER MATTERS
+- Easement in favor of Florida Power & Light Company for electrical transmission lines, recorded in O.R. Book 18924, Page 445.
+- Restrictive covenants recorded in O.R. Book 12031, Page 892, as amended by instrument recorded in O.R. Book 15677, Page 1021.
+- Judgment search results: No unsatisfied judgments, no federal tax liens, no state tax liens found [Source: title_search_page2, chunk 2]
+
+REVIEWER NOTES
+1. ACTION REQUIRED: Verify the updated payoff amount of $487,920.00 as of March 1, 2026, with the new servicer, Nationstar Mortgage LLC d/b/a Mr. Cooper [Source: servicer_email, chunk 3].
+2. ACTION REQUIRED: Review the case management conference order and prepare for the upcoming conference, ensuring all necessary parties are included, such as the HOA [Source: court_order, chunk 0].
+3. ACTION REQUIRED: Direct all future correspondence, billing submissions, and status reports to Mr. Cooper at the specified address and phone number, as the servicer is transferring from Wells Fargo Bank, N.A. to Nationstar Mortgage LLC d/b/a Mr. Cooper effective April 1, 2026 [Source: servicer_email, chunk 1].
+
+======================================================================
+EVIDENCE MANIFEST
+======================================================================
+
+[Source: title_search_page2, chunk 1] score=0.624
+a part of
+the property.
+
+APN: 33-5022-014-0290
+
+TAX AND ASSESSMENT INFORMATION
+
+Tax Year 2024: PAID — $7,891.00 (receipt on file)
+Tax Year 2025: UNPAID — $8,247.00 (due November 1, 2025 — DELINQUENT)
+
+Special Assessment District: Palmetto Bay Municipal Services
+ Assessment Amount: $1,200.00/year
+ Status: Current through 2025
+
+No outstanding municipal code violations found on record.
+
+JUDGMENT AND
+
+[Source: title_search_page1, chunk 11] score=0.616
+deed, recorded 2015)
+ - Current vesting: CARLOS A. RODRIGUEZ, a sing1e man
+
+[Source: title_search_page1, chunk 10] score=0.616
+deed, recorded 2015)
+ - Current vesting: CARLOS A. RODRIGUEZ, a sing1e man
+
+[Source: title_search_page1, chunk 36] score=0.616
+urrent vesting: CARLOS A. RODRIGUEZ, a sing1e man
+
+[Source: title_search_page1, chunk 3] score=0.610
+Lis Pendens fi1ed by PALMETTO BAY HOMEOWNERS ASSOCIATION,
+ INC. on January 22, 2026 in the amount of $3,420.00 for unpaid
+ assessments, recorded as Instrument No. 2026-OO34567.
+
+5. Easement in favor of Florida Power & Light Company for e1ectrica1
+ transmission 1ines, recorded in O.R. Book 18924, Page 445.
+
+6. Restrictive covenants recorded in O.R. Book 12031, Page 892,
+ as amended by instrument
+
+[Source: servicer_email, chunk 1] score=0.569
+will transfer from Wells Fargo Bank, N.A. to Nationstar Mortgage LLC d/b/a Mr. Cooper.
+
+Please direct all future correspondence, billing submissions, and status reports to Mr. Cooper at:
+Nationstar Mortgage LLC d/b/a Mr. Cooper
+Attn: Default Servicing
+8950 Cypress Waters Blvd, Dallas, TX 75019
+Phone: (888) 480-2432
+
+Please note: all pending fee authorizations under Wells Fargo will need to be
+
+[Source: title_search_page1, chunk 1] score=0.521
+s and assessments for the year 2025 and subsequent years,
+ which are a lien but not yet due and payab1e.
+ Amount: $8,247.00
+ Tax Parce1 No.: 33-5022-O14-O29O
+
+2. Mortgage from CARLOS A. RODRIGUEZ to WELLS FARGO BANK, N.A. in the
+ origina1 amount of $445,000.00 dated February 8, 2021 and recorded
+ February 15, 2021 as Instrument No. 2021-O123456 in the Official
+ Records of Miami-Dade County,
+
+[Source: title_search_page2, chunk 2] score=0.517
+h 2025
+
+No outstanding municipal code violations found on record.
+
+JUDGMENT AND LIEN SEARCH
+
+Circuit Court of Miami-Dade County, Florida — search conducted 02/28/2026
+
+Name Searched: CARLOS A. RODRIGUEZ
+
+Results:
+ - No unsatisfied judgments found
+ - No federal tax liens found
+ - No state tax liens found
+ - HOA lien: Palmetto Bay Homeowners Association — $3,420.00
+ (see Schedule B, Item 4)
+
+Name
+
+[Source: title_search_page2, chunk 12] score=0.489
+015-0567890
+ (mortgage fully satisfied prior to conveyance to Rodriguez)
+
+[Source: title_search_page2, chunk 16] score=0.486
+0567890
+ (mortgage fully satisfied prior to conveyance to Rodriguez)
+
+[Source: title_search_page2, chunk 6] score=0.485
+ment 2015-0567890
+ (mortgage fully satisfied prior to conveyance to Rodriguez)
+
+[Source: title_search_page2, chunk 5] score=0.485
+ument 2015-0567890
+ (mortgage fully satisfied prior to conveyance to Rodriguez)
+
+[Source: court_order, chunk 71] score=0.432
+it Court Judge
+
+[Source: court_order, chunk 67] score=0.410
+ircuit Court Judge
+
+[Source: court_order, chunk 73] score=0.404
+Court Judge
+
+[Source: title_search_page1, chunk 4] score=0.391
+tive covenants recorded in O.R. Book 12031, Page 892,
+ as amended by instrument recorded in O.R. Book 15677, Page 1021.
+
+NOTE: The chain of title shows the following sequence of ownership:
+ - Maria Santos (fee simple, recorded 2OO3)
+ - Santos to Rodriguez, Car1os A. (warranty deed, recorded 2015)
+ - Current vesting: CARLOS A. RODRIGUEZ, a sing1e man
+
+[Source: servicer_email, chunk 3] score=0.319
+endez at Mendez & Associates, (305) 555-0312, rmendez@mendezlaw.com. All future borrower communications should go through his office.
+
+The updated payoff amount as of March 1, 2026 is $487,920.00. Please update your records.
+
+Finally — the HOA has filed a lis pendens (see attached title update if you have it). Might want to have someone review whether we need to name them as a party before the
+
+[Source: court_order, chunk 62] score=0.306
+ro
+ Circuit Court Judge
+
+[Source: servicer_email, chunk 75] score=0.299
+nsfer Unit
+
+[Source: court_order, chunk 0] score=0.297
+IN THE CIRCUIT COURT OF THE ELEVENTH JUDICIAL CIRCUIT
+IN AND FOR MIAMI-DADE COUNTY, FLORIDA
+
+CASE NO.: 2026-CA-003891
+
+NATIONSTAR MORTGAGE LLC D/B/A MR. COOPER,
+ Plaintiff,
+
+vs.
+
+CARLOS A. RODRIGUEZ; PALMETTO BAY HOMEOWNERS
+ASSOCIATION, INC.; UNKNOWN TENANT(S) IN POSSESSION,
+ Defendants.
+
+_______________________________________________
+
+ORDER SETTING CASE MANAGEMENT CONFERENCE
+
+THIS CAUSE having

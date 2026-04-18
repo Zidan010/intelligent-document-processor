@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Include County State",
+    "description": "Always include county and state in the property address section",
+    "source_edit": "title_review_summary"
+  },
+  {
+    "name": "Use Labeled Sections",
+    "description": "Organize output into clearly labeled sections (e.g. LIENS, TAX STATUS, OWNERSHIP, OTHER MATTERS, REVIEWER NOTES)",
+    "source_edit": "title_review_summary"
+  },
+  {
+    "name": "Add Instrument Details",
+    "description": "Include instrument numbers and recording details for every lien and encumbrance",
+    "source_edit": "title_review_summary"
+  },
+  {
+    "name": "Provide Lien Position Context",
+    "description": "Add context to each lien, such as 'First Mortgage' and status, e.g. 'ASSIGNED'",
+    "source_edit": "title_review_summary"
+  },
+  {
+    "name": "Flag Action Required",
+    "description": "Highlight items that require action or review, using 'ACTION REQUIRED' or similar notation",
+    "source_edit": "title_review_summary"
+  },
+  {
+    "name": "Separate Tax Information",
+    "description": "Separate tax information into its own section, including delinquency status and special assessments",
+    "source_edit": "title_review_summary"
+  },
+  {
+    "name": "Include Reviewer Notes",
+    "description": "Add a section for reviewer notes, including actionable items that the attorney should address",
+    "source_edit": "title_review_summary"
+  },
+  {
+    "name": "Show Chain of Title",
+    "description": "Include information to show a clean chain of title, such as prior owner and mortgage satisfaction",
+    "source_edit": "title_review_summary"
+  },
+  {
+    "name": "Cross Reference External Info",
+    "description": "Cross-reference external information, such as servicing transfer emails, to ensure accuracy and completeness",
+    "source_edit": "title_review_summary"
+  },
+  {
+    "name": "Highlight Delinquencies",
+    "description": "Highlight delinquent taxes and other items that require attention, using 'DELINQUENT' or similar notation",
+    "source_edit": "title_review_summary"
+  },
+  {
+    "name": "Include Preparation Date",
+    "description": "Always specify the date the document was prepared",
+    "source_edit": "case_status_memo"
+  },
+  {
+    "name": "Provide Court Details",
+    "description": "Include court name, case number, and judge's name in the document",
+    "source_edit": "case_status_memo"
+  },
+  {
+    "name": "Prioritize Action Items",
+    "description": "Organize tasks by urgency and importance using clear labels like URGENT, HIGH, and NORMAL",
+    "source_edit": "case_status_memo"
+  },
+  {
+    "name": "Cross Reference Deadlines",
+    "description": "Connect deadlines with specific filing requirements and actions needed",
+    "source_edit": "case_status_memo"
+  },
+  {
+    "name": "Add Title Concerns Section",
+    "description": "Create a dedicated section for title concerns and potential issues",
+    "source_edit": "case_status_memo"
+  },
+  {
+    "name": "Make Deadlines Actionable",
+    "description": "Specify what action needs to be taken by each deadline, rather than just listing dates",
+    "source_edit": "case_status_memo"
+  },
+  {
+    "name": "Unify Information",
+    "description": "Connect and integrate information from all relevant documents into a cohesive narrative",
+    "source_edit": "case_status_memo"
+  },
+  {
+    "name": "Include Servicer Details",
+    "description": "Provide servicer contact information, including address and any relevant changes",
+    "source_edit": "case_status_memo"
+  },
+  {
+    "name": "Specify Payoff Amount",
+    "description": "Clearly state the current payoff amount and the date it was last updated",
+    "source_edit": "case_status_memo"
+  }
+]

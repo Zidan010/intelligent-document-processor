@@ -1,0 +1,54 @@
+{
+  "draft_type": "document_checklist",
+  "style_rules_count": 19,
+  "style_rules_applied": [
+    "Always include county and state in the property address section",
+    "Organize output into clearly labeled sections (e.g. LIENS, TAX STATUS, OWNERSHIP, OTHER MATTERS, REVIEWER NOTES)",
+    "Include instrument numbers and recording details for every lien and encumbrance",
+    "Add context to each lien, such as 'First Mortgage' and status, e.g. 'ASSIGNED'",
+    "Highlight items that require action or review, using 'ACTION REQUIRED' or similar notation",
+    "Separate tax information into its own section, including delinquency status and special assessments",
+    "Add a section for reviewer notes, including actionable items that the attorney should address",
+    "Include information to show a clean chain of title, such as prior owner and mortgage satisfaction",
+    "Cross-reference external information, such as servicing transfer emails, to ensure accuracy and completeness",
+    "Highlight delinquent taxes and other items that require attention, using 'DELINQUENT' or similar notation",
+    "Always specify the date the document was prepared",
+    "Include court name, case number, and judge's name in the document",
+    "Organize tasks by urgency and importance using clear labels like URGENT, HIGH, and NORMAL",
+    "Connect deadlines with specific filing requirements and actions needed",
+    "Create a dedicated section for title concerns and potential issues",
+    "Specify what action needs to be taken by each deadline, rather than just listing dates",
+    "Connect and integrate information from all relevant documents into a cohesive narrative",
+    "Provide servicer contact information, including address and any relevant changes",
+    "Clearly state the current payoff amount and the date it was last updated"
+  ],
+  "baseline_scores": {
+    "scores": {
+      "section_structure": 3,
+      "instrument_numbers": 0,
+      "action_flags": 2,
+      "prioritization": 0,
+      "cross_doc_synthesis": 2,
+      "completeness": 2,
+      "reviewer_notes": 1,
+      "citation_quality": 2
+    },
+    "total": 12,
+    "summary": "The draft exhibits a clear section structure and good cross-document synthesis, but lacks instrument numbers, prioritization of action items, and a dedicated section for reviewer notes. Citation quality is good, with sources attributed for most claims."
+  },
+  "improved_scores": {
+    "scores": {
+      "section_structure": 3,
+      "instrument_numbers": 1,
+      "action_flags": 2,
+      "prioritization": 1,
+      "cross_doc_synthesis": 2,
+      "completeness": 2,
+      "reviewer_notes": 1,
+      "citation_quality": 2
+    },
+    "total": 14,
+    "summary": "The draft document demonstrates a well-organized structure and adequately connects information from multiple source documents. However, it lacks prioritization of action items and has incomplete or missing information in certain sections, such as instrument numbers and reviewer notes. Overall, the document provides a good foundation but requires further refinement to meet all requirements."
+  },
+  "improvement_delta": 2
+}

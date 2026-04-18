@@ -57,8 +57,8 @@ _OCR_RULES: list[tuple[str, str]] = [
     (r"simp1e",         "simple"),
     (r"comp1ete",       "complete"),
     # Zero-as-letter inside numbers / identifiers
-    (r"(?<=\d)O(?=\d)", "0"),   # digit-O-digit → digit-0-digit
-    (r"(?<=\$[\d,]+)OO\b", "00"),  # $X,XXX.OO → $X,XXX.00
+    (r"(\d)O(\d)", r"\g<1>0\g<2>"),   # digit-O-digit → digit-0-digit
+    (r"(\$[\d,]+)OO\b", r"\g<1>00"),  # $X,XXX.OO → $X,XXX.00
     # All-caps words with embedded 1 (e.g. WE11S, RODR1GUEZ, PALMETT0)
     (r"\bWE11S\b",      "WELLS"),
     (r"\bRODR1GUEZ\b",  "RODRIGUEZ"),
@@ -90,8 +90,7 @@ def clean_ocr(text: str) -> str:
         if callable(replacement):
             result = re.sub(pattern, replacement, result)
         else:
-            result = re.sub(pattern, replacement, result, flags=re.IGNORECASE
-                            if pattern[0].islower() else 0)
+            result = re.sub(pattern, replacement, result)
     # Normalise whitespace: collapse runs of spaces/tabs, keep newlines
     result = re.sub(r"[ \t]{2,}", " ", result)
     result = re.sub(r"\n{3,}", "\n\n", result)

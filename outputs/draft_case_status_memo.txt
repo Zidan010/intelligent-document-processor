@@ -1,0 +1,190 @@
+Case Status Memo — Rodriguez, Carlos A. (2025-FC-08891)
+Prepared: NOT FOUND IN SOURCE DOCUMENTS (today's date not specified in the evidence, but based on the context, it is known that the case is being prepared for a case management conference on April 22, 2026)
+
+Borrower: Carlos A. Rodriguez
+Property: 15201 SW 88th Ave, Palmetto Bay, FL 33157
+Servicer: Wells Fargo → Nationstar/Mr. Cooper (effective April 1, 2026) [Source: servicer_email, chunk 2]
+Borrower's Counsel: Rafael Mendez, Mendez & Associates, (305) 555-0312, rmendez@mendezlaw.com [Source: servicer_email, chunk 2]
+Court: Circuit Court of the Eleventh Judicial Circuit, Miami-Dade County, Florida
+Case No.: 2026-CA-003891
+Judge: Hon. Patricia Navarro [Source: court_order, chunk 1]
+
+Current Status: pre_filing
+
+ACTION ITEMS (by priority)
+1. URGENT — Review and determine if PALMETTO BAY HOMEOWNERS ASSOCIATION, INC. needs to be named as a party before the complaint is filed — deadline: before the complaint is filed [Source: servicer_email, chunk 3]
+Consequence of non-action: Potential delay in the case proceedings if the HOA is not properly named as a party.
+2. HIGH — Update records with the new payoff amount of $487,920.00 [Source: servicer_email, chunk 3]
+Consequence of non-action: Inaccurate records may lead to errors in the case proceedings.
+3. NORMAL — Resubmit pending fee authorizations to the new servicer, Nationstar/Mr. Cooper, after the transfer date [Source: servicer_email, chunk 2]
+Consequence of non-action: Rejection of invoices submitted to Wells Fargo after April 1, 2026.
+
+UPCOMING DEADLINES
+April 22, 2026 — Case Management Conference [Source: court_order, chunk 1]
+
+TITLE CONCERNS
+Delinquent taxes for the year 2025 and subsequent years [Source: title_search_page1, chunk 0]
+Lis Pendens filed by PALMETTO BAY HOMEOWNERS ASSOCIATION, INC. on January 22, 2026, in the amount of $3,420.00 [Source: title_search_page1, chunk 3]
+Easement in favor of Florida Power & Light Company for electrical transmission lines [Source: title_search_page1, chunk 3]
+Restrictive covenants recorded in O.R. Book 12031, Page 892 [Source: title_search_page1, chunk 3]
+
+NOTES
+Payoff amount: $487,920.00 (as of March 1, 2026) [Source: servicer_email, chunk 3]
+New servicer: Nationstar/Mr. Cooper (effective April 1, 2026) [Source: servicer_email, chunk 2]
+Borrower has retained counsel [Source: servicer_email, chunk 2]
+
+======================================================================
+EVIDENCE MANIFEST
+======================================================================
+
+[Source: court_order, chunk 57] score=0.811
+Navarro
+ Circuit Court Judge
+
+[Source: court_order, chunk 56] score=0.811
+Navarro
+ Circuit Court Judge
+
+[Source: court_order, chunk 54] score=0.798
+ia Navarro
+ Circuit Court Judge
+
+[Source: court_order, chunk 1] score=0.766
+__________________
+
+ORDER SETTING CASE MANAGEMENT CONFERENCE
+
+THIS CAUSE having come before the Court, and the Court being
+otherwise fully advised in the premises, it is hereby
+
+ORDERED AND ADJUDGED that:
+
+1. A Case Management Conference is set for April 22, 2026 at
+ 10:00 AM before the Honorable Judge Patricia Navarro,
+ Courtroom 5-3, Miami-Dade County Courthouse,
+ 73 W Flagler St, Miami, FL
+
+[Source: servicer_email, chunk 50] score=0.684
+Wells Fargo Servicing Transfer Unit
+
+[Source: servicer_email, chunk 49] score=0.684
+Wells Fargo Servicing Transfer Unit
+
+[Source: servicer_email, chunk 48] score=0.684
+Wells Fargo Servicing Transfer Unit
+
+[Source: court_order, chunk 74] score=0.572
+Court Judge
+
+[Source: court_order, chunk 73] score=0.572
+Court Judge
+
+[Source: servicer_email, chunk 3] score=0.482
+endez at Mendez & Associates, (305) 555-0312, rmendez@mendezlaw.com. All future borrower communications should go through his office.
+
+The updated payoff amount as of March 1, 2026 is $487,920.00. Please update your records.
+
+Finally — the HOA has filed a lis pendens (see attached title update if you have it). Might want to have someone review whether we need to name them as a party before the
+
+[Source: court_order, chunk 53] score=0.474
+cia Navarro
+ Circuit Court Judge
+
+[Source: title_search_page1, chunk 3] score=0.474
+Lis Pendens fi1ed by PALMETTO BAY HOMEOWNERS ASSOCIATION,
+ INC. on January 22, 2026 in the amount of $3,420.00 for unpaid
+ assessments, recorded as Instrument No. 2026-OO34567.
+
+5. Easement in favor of Florida Power & Light Company for e1ectrica1
+ transmission 1ines, recorded in O.R. Book 18924, Page 445.
+
+6. Restrictive covenants recorded in O.R. Book 12031, Page 892,
+ as amended by instrument
+
+[Source: servicer_email, chunk 18] score=0.427
+before the complaint goes out.
+
+Wells Fargo Servicing Transfer Unit
+
+[Source: servicer_email, chunk 17] score=0.427
+before the complaint goes out.
+
+Wells Fargo Servicing Transfer Unit
+
+[Source: servicer_email, chunk 12] score=0.424
+party before the complaint goes out.
+
+Wells Fargo Servicing Transfer Unit
+
+[Source: servicer_email, chunk 19] score=0.412
+efore the complaint goes out.
+
+Wells Fargo Servicing Transfer Unit
+
+[Source: servicer_email, chunk 2] score=0.412
+Please note: all pending fee authorizations under Wells Fargo will need to be resubmitted to the new servicer after the transfer date. Any invoices submitted to Wells Fargo after April 1 will be rejected.
+
+Additionally, we have received notification that the borrower has retained counsel. His attorney is Rafael Mendez at Mendez & Associates, (305) 555-0312, rmendez@mendezlaw.com. All future
+
+[Source: servicer_email, chunk 22] score=0.407
+re the complaint goes out.
+
+Wells Fargo Servicing Transfer Unit
+
+[Source: court_order, chunk 0] score=0.378
+IN THE CIRCUIT COURT OF THE ELEVENTH JUDICIAL CIRCUIT
+IN AND FOR MIAMI-DADE COUNTY, FLORIDA
+
+CASE NO.: 2026-CA-003891
+
+NATIONSTAR MORTGAGE LLC D/B/A MR. COOPER,
+ Plaintiff,
+
+vs.
+
+CARLOS A. RODRIGUEZ; PALMETTO BAY HOMEOWNERS
+ASSOCIATION, INC.; UNKNOWN TENANT(S) IN POSSESSION,
+ Defendants.
+
+_______________________________________________
+
+ORDER SETTING CASE MANAGEMENT CONFERENCE
+
+THIS CAUSE having
+
+[Source: court_order, chunk 71] score=0.366
+it Court Judge
+
+[Source: title_search_page1, chunk 0] score=0.340
+COMMONWEALTH LAND T1TLE INSURANCE COMPANY
+SCHEDULE B — EXCEPTIONS
+
+File No.: CLT-2025-08891
+Effective Date: February 28, 2026
+Property: 15201 SW 88th Ave, Palmetto Bay, Florida 33157
+
+The following matters are exceptions to the title to the above-described
+property and are not covered by this policy:
+
+1. Property taxes and assessments for the year 2025 and subsequent years,
+ which are a lien but
+
+[Source: court_order, chunk 8] score=0.340
+2026.
+
+ _________________________
+ Hon. Patricia Navarro
+ Circuit Court Judge
+
+[Source: court_order, chunk 7] score=0.340
+2026.
+
+ _________________________
+ Hon. Patricia Navarro
+ Circuit Court Judge
+
+[Source: title_search_page2, chunk 24] score=0.303
+(mortgage fully satisfied prior to conveyance to Rodriguez)
+
+[Source: title_search_page2, chunk 23] score=0.303
+(mortgage fully satisfied prior to conveyance to Rodriguez)
