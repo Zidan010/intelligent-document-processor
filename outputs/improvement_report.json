@@ -1,54 +1,61 @@
 {
   "draft_type": "document_checklist",
-  "style_rules_count": 19,
+  "style_rules_count": 22,
   "style_rules_applied": [
-    "Always include county and state in the property address section",
-    "Organize output into clearly labeled sections (e.g. LIENS, TAX STATUS, OWNERSHIP, OTHER MATTERS, REVIEWER NOTES)",
-    "Include instrument numbers and recording details for every lien and encumbrance",
-    "Add context to each lien, such as 'First Mortgage' and status, e.g. 'ASSIGNED'",
-    "Highlight items that require action or review, using 'ACTION REQUIRED' or similar notation",
-    "Separate tax information into its own section, including delinquency status and special assessments",
-    "Add a section for reviewer notes, including actionable items that the attorney should address",
-    "Include information to show a clean chain of title, such as prior owner and mortgage satisfaction",
-    "Cross-reference external information, such as servicing transfer emails, to ensure accuracy and completeness",
-    "Highlight delinquent taxes and other items that require attention, using 'DELINQUENT' or similar notation",
-    "Always specify the date the document was prepared",
-    "Include court name, case number, and judge's name in the document",
-    "Organize tasks by urgency and importance using clear labels like URGENT, HIGH, and NORMAL",
-    "Connect deadlines with specific filing requirements and actions needed",
-    "Create a dedicated section for title concerns and potential issues",
-    "Specify what action needs to be taken by each deadline, rather than just listing dates",
-    "Connect and integrate information from all relevant documents into a cohesive narrative",
-    "Provide servicer contact information, including address and any relevant changes",
-    "Clearly state the current payoff amount and the date it was last updated"
+    "Include county, state, and effective date in the header, e.g., 'County: Miami-Dade | State: Florida | Effective Date: February 28, 2026'",
+    "Organize content into labeled sections (e.g., LIENS & ENCUMBRANCES, TAX STATUS, OWNERSHIP, OTHER MATTERS, REVIEWER NOTES) for clarity",
+    "Include instrument numbers and recording details for every lien, e.g., 'Instrument No.: 2021-0123456 | Recorded: February 15, 2021'",
+    "Provide lien position context, such as 'First Mortgage', and status, like 'ASSIGNED', for each lien",
+    "Flag items requiring action with 'ACTION REQUIRED', e.g., 'ACTION REQUIRED: Evaluate whether HOA must be named as party defendant in foreclosure complaint'",
+    "Separate tax information into its own section and highlight delinquency status, e.g., '2025 Taxes: DELINQUENT \u2014 $8,247.00'",
+    "Include a reviewer notes section with actionable items for the attorney to address, e.g., 'Delinquent 2025 taxes must be addressed before sale'",
+    "Include satisfaction of prior mortgages to show a clean chain of title, e.g., 'Santos mortgage fully satisfied prior to conveyance (Instrument 2015-0567890)'",
+    "Cross-reference external evidence, such as emails or documents, to support claims, e.g., 'Cross-referenced the servicing transfer from the servicer email'",
+    "Use specific numbers, dates, and instrument IDs instead of generic text, e.g., '$445,000.00' instead of 'a significant amount'",
+    "Include relevant metadata, such as tax parcel numbers and special assessments, e.g., 'Tax Parcel: 33-5022-014-0290 | Special Assessment: $1,200.00/year'",
+    "Clearly state current vesting and prior ownership, including conveyance methods, e.g., 'Current Vesting: Carlos A. Rodriguez, a single man (fee simple)'",
+    "Use ### for section headers and ## for subsections, not plain text, to maintain consistency throughout the document",
+    "Add document preparation date, court details, judge name, and case number from court order in the introduction section",
+    "Replace flat list of developments with prioritized ACTION ITEMS ranked by urgency (e.g., URGENT, HIGH, NORMAL) for easy reference",
+    "Provide servicer contact information, including name, address, and effective transfer date, to ensure correct correspondence",
+    "Make deadlines actionable by specifying what needs to happen by each date, rather than just listing the dates",
+    "Connect information across all relevant documents (e.g., title search, email, court order) into a unified picture to avoid inconsistencies",
+    "Use specific numbers and amounts (e.g., $487,920.00, April 1, 2026) instead of generic text to ensure accuracy and clarity",
+    "Order sections in a logical manner, such as introduction, action items, deadlines, and notes, to facilitate easy reading and reference",
+    "Create a dedicated section for title concerns, including specific details (e.g., delinquent taxes, lien issues) to ensure these critical issues are addressed",
+    "Provide source citations with document names and chunk numbers (e.g., 'servicer email: $487,920.00 as of 3/1/2026') to support claims and facilitate verification"
   ],
   "baseline_scores": {
     "scores": {
-      "section_structure": 3,
-      "instrument_numbers": 0,
-      "action_flags": 2,
-      "prioritization": 0,
-      "cross_doc_synthesis": 2,
-      "completeness": 2,
-      "reviewer_notes": 1,
-      "citation_quality": 2
+      "section_structure": 8,
+      "instrument_numbers": 6,
+      "action_item_flagging": 9,
+      "prioritization": 7,
+      "cross_doc_synthesis": 8,
+      "completeness": 8,
+      "reviewer_notes": 4,
+      "citation_quality": 9,
+      "metadata": 9,
+      "readability": 8
     },
-    "total": 12,
-    "summary": "The draft exhibits a clear section structure and good cross-document synthesis, but lacks instrument numbers, prioritization of action items, and a dedicated section for reviewer notes. Citation quality is good, with sources attributed for most claims."
+    "total": 76,
+    "summary": "The draft demonstrates a clear and organized structure, effectively synthesizing information from multiple source documents and providing actionable guidance. However, it lacks a dedicated section for reviewer notes and could benefit from more detailed prioritization of action items. Overall, the draft is well-structured and easy to use for case management, with minor areas for improvement."
   },
   "improved_scores": {
     "scores": {
-      "section_structure": 3,
-      "instrument_numbers": 1,
-      "action_flags": 2,
-      "prioritization": 1,
-      "cross_doc_synthesis": 2,
-      "completeness": 2,
-      "reviewer_notes": 1,
-      "citation_quality": 2
+      "section_structure": 8,
+      "instrument_numbers": 7,
+      "action_item_flagging": 9,
+      "prioritization": 6,
+      "cross_doc_synthesis": 8,
+      "completeness": 7,
+      "reviewer_notes": 4,
+      "citation_quality": 9,
+      "metadata": 9,
+      "readability": 8
     },
-    "total": 14,
-    "summary": "The draft document demonstrates a well-organized structure and adequately connects information from multiple source documents. However, it lacks prioritization of action items and has incomplete or missing information in certain sections, such as instrument numbers and reviewer notes. Overall, the document provides a good foundation but requires further refinement to meet all requirements."
+    "total": 75,
+    "summary": "The draft document demonstrates a clear and organized structure, effectively weaving information from multiple source documents. While it excels in citation quality and metadata, it falls short in providing reviewer notes and guidance. Overall, the document is well-structured and easy to scan, but could benefit from additional guidance for reviewers."
   },
-  "improvement_delta": 2
+  "improvement_delta": -1
 }

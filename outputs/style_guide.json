@@ -1,97 +1,112 @@
 [
   {
-    "name": "Include County State",
-    "description": "Always include county and state in the property address section",
+    "name": "Header Enrichment",
+    "description": "Include county, state, and effective date in the header, e.g., 'County: Miami-Dade | State: Florida | Effective Date: February 28, 2026'",
     "source_edit": "title_review_summary"
   },
   {
-    "name": "Use Labeled Sections",
-    "description": "Organize output into clearly labeled sections (e.g. LIENS, TAX STATUS, OWNERSHIP, OTHER MATTERS, REVIEWER NOTES)",
+    "name": "Section Organization",
+    "description": "Organize content into labeled sections (e.g., LIENS & ENCUMBRANCES, TAX STATUS, OWNERSHIP, OTHER MATTERS, REVIEWER NOTES) for clarity",
     "source_edit": "title_review_summary"
   },
   {
-    "name": "Add Instrument Details",
-    "description": "Include instrument numbers and recording details for every lien and encumbrance",
+    "name": "Instrument Number Inclusion",
+    "description": "Include instrument numbers and recording details for every lien, e.g., 'Instrument No.: 2021-0123456 | Recorded: February 15, 2021'",
     "source_edit": "title_review_summary"
   },
   {
-    "name": "Provide Lien Position Context",
-    "description": "Add context to each lien, such as 'First Mortgage' and status, e.g. 'ASSIGNED'",
+    "name": "Lien Position Context",
+    "description": "Provide lien position context, such as 'First Mortgage', and status, like 'ASSIGNED', for each lien",
     "source_edit": "title_review_summary"
   },
   {
-    "name": "Flag Action Required",
-    "description": "Highlight items that require action or review, using 'ACTION REQUIRED' or similar notation",
+    "name": "Action Flagging",
+    "description": "Flag items requiring action with 'ACTION REQUIRED', e.g., 'ACTION REQUIRED: Evaluate whether HOA must be named as party defendant in foreclosure complaint'",
     "source_edit": "title_review_summary"
   },
   {
-    "name": "Separate Tax Information",
-    "description": "Separate tax information into its own section, including delinquency status and special assessments",
+    "name": "Tax Status Highlighting",
+    "description": "Separate tax information into its own section and highlight delinquency status, e.g., '2025 Taxes: DELINQUENT \u2014 $8,247.00'",
     "source_edit": "title_review_summary"
   },
   {
-    "name": "Include Reviewer Notes",
-    "description": "Add a section for reviewer notes, including actionable items that the attorney should address",
+    "name": "Reviewer Notes Section",
+    "description": "Include a reviewer notes section with actionable items for the attorney to address, e.g., 'Delinquent 2025 taxes must be addressed before sale'",
     "source_edit": "title_review_summary"
   },
   {
-    "name": "Show Chain of Title",
-    "description": "Include information to show a clean chain of title, such as prior owner and mortgage satisfaction",
+    "name": "Chain of Title Clarification",
+    "description": "Include satisfaction of prior mortgages to show a clean chain of title, e.g., 'Santos mortgage fully satisfied prior to conveyance (Instrument 2015-0567890)'",
     "source_edit": "title_review_summary"
   },
   {
-    "name": "Cross Reference External Info",
-    "description": "Cross-reference external information, such as servicing transfer emails, to ensure accuracy and completeness",
+    "name": "Evidence Linking",
+    "description": "Cross-reference external evidence, such as emails or documents, to support claims, e.g., 'Cross-referenced the servicing transfer from the servicer email'",
     "source_edit": "title_review_summary"
   },
   {
-    "name": "Highlight Delinquencies",
-    "description": "Highlight delinquent taxes and other items that require attention, using 'DELINQUENT' or similar notation",
+    "name": "Specificity Over Generics",
+    "description": "Use specific numbers, dates, and instrument IDs instead of generic text, e.g., '$445,000.00' instead of 'a significant amount'",
     "source_edit": "title_review_summary"
   },
   {
-    "name": "Include Preparation Date",
-    "description": "Always specify the date the document was prepared",
+    "name": "Metadata Inclusion",
+    "description": "Include relevant metadata, such as tax parcel numbers and special assessments, e.g., 'Tax Parcel: 33-5022-014-0290 | Special Assessment: $1,200.00/year'",
+    "source_edit": "title_review_summary"
+  },
+  {
+    "name": "Clear Ownership",
+    "description": "Clearly state current vesting and prior ownership, including conveyance methods, e.g., 'Current Vesting: Carlos A. Rodriguez, a single man (fee simple)'",
+    "source_edit": "title_review_summary"
+  },
+  {
+    "name": "Use Standard Headers",
+    "description": "Use ### for section headers and ## for subsections, not plain text, to maintain consistency throughout the document",
     "source_edit": "case_status_memo"
   },
   {
-    "name": "Provide Court Details",
-    "description": "Include court name, case number, and judge's name in the document",
+    "name": "Include Metadata",
+    "description": "Add document preparation date, court details, judge name, and case number from court order in the introduction section",
     "source_edit": "case_status_memo"
   },
   {
     "name": "Prioritize Action Items",
-    "description": "Organize tasks by urgency and importance using clear labels like URGENT, HIGH, and NORMAL",
+    "description": "Replace flat list of developments with prioritized ACTION ITEMS ranked by urgency (e.g., URGENT, HIGH, NORMAL) for easy reference",
     "source_edit": "case_status_memo"
   },
   {
-    "name": "Cross Reference Deadlines",
-    "description": "Connect deadlines with specific filing requirements and actions needed",
+    "name": "Specify Servicer Details",
+    "description": "Provide servicer contact information, including name, address, and effective transfer date, to ensure correct correspondence",
     "source_edit": "case_status_memo"
   },
   {
-    "name": "Add Title Concerns Section",
-    "description": "Create a dedicated section for title concerns and potential issues",
+    "name": "Link Deadlines to Actions",
+    "description": "Make deadlines actionable by specifying what needs to happen by each date, rather than just listing the dates",
     "source_edit": "case_status_memo"
   },
   {
-    "name": "Make Deadlines Actionable",
-    "description": "Specify what action needs to be taken by each deadline, rather than just listing dates",
+    "name": "Cross-Reference Documents",
+    "description": "Connect information across all relevant documents (e.g., title search, email, court order) into a unified picture to avoid inconsistencies",
     "source_edit": "case_status_memo"
   },
   {
-    "name": "Unify Information",
-    "description": "Connect and integrate information from all relevant documents into a cohesive narrative",
+    "name": "Use Concrete Numbers",
+    "description": "Use specific numbers and amounts (e.g., $487,920.00, April 1, 2026) instead of generic text to ensure accuracy and clarity",
     "source_edit": "case_status_memo"
   },
   {
-    "name": "Include Servicer Details",
-    "description": "Provide servicer contact information, including address and any relevant changes",
+    "name": "Organize Sections Logically",
+    "description": "Order sections in a logical manner, such as introduction, action items, deadlines, and notes, to facilitate easy reading and reference",
     "source_edit": "case_status_memo"
   },
   {
-    "name": "Specify Payoff Amount",
-    "description": "Clearly state the current payoff amount and the date it was last updated",
+    "name": "Highlight Title Concerns",
+    "description": "Create a dedicated section for title concerns, including specific details (e.g., delinquent taxes, lien issues) to ensure these critical issues are addressed",
+    "source_edit": "case_status_memo"
+  },
+  {
+    "name": "Include Evidence Links",
+    "description": "Provide source citations with document names and chunk numbers (e.g., 'servicer email: $487,920.00 as of 3/1/2026') to support claims and facilitate verification",
     "source_edit": "case_status_memo"
   }
 ]

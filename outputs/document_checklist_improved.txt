@@ -1,93 +1,99 @@
-Document Checklist — Rodriguez, Carlos A. (2025-FC-08891)
+### Document Checklist — Rodriguez, Carlos A. (2025-FC-08891)
+#### County: Miami-Dade | State: FL | Effective Date: February 28, 2026
+#### Case Number: 2025-FC-08891 | Court: Miami-Dade County Courthouse | Judge: Hon. Patricia Navarro
+#### Document Preparation Date: March 12, 2026
 
-**DOCUMENTS ON FILE**
-1. Title search page 1 [Source: title_search_page1, chunk 0] - Schedule B exceptions from title search, Effective Date: February 28, 2026
-2. Title search page 2 [Source: title_search_page2, NOT FOUND IN SOURCE DOCUMENTS] - No details available, Effective Date: NOT FOUND IN SOURCE DOCUMENTS
-3. Servicer email [Source: servicer_email, chunk 3] - Servicing transfer notice, borrower's attorney information, and payoff amount update, Effective Date: March 1, 2026
-4. Court order [Source: court_order, chunk 1] - Case management conference order, Effective Date: March 10, 2026
+### DOCUMENTS ON FILE
+1. Title Search Page 1 [Source: title_search_page1, chunk 0] - Covers exceptions to title, effective date: February 28, 2026
+2. Title Search Page 2 [Source: title_search_page2, chunk 46] - Covers legal description, tax info, and judgment search results
+3. Servicer Email [Source: servicer_email, chunk 2] - Covers servicing transfer notice, pending fee authorizations, and updated payoff amount as of March 1, 2026: $487,920.00
+4. Court Order [Source: court_order, chunk 1] - Covers case management conference order, setting conference for April 22, 2026
 
-**DOCUMENTS REQUIRED BUT NOT YET FILED**
-1. Case Management Report - Required by the court order to be filed 10 days prior to the case management conference [Source: court_order, chunk 2]
-2. Proof of service on all named defendants - Required to be filed by April 15, 2026 [Source: court_order, chunk 3]
-3. Complaint - To be filed after review of whether to name the HOA as a party [Source: servicer_email, chunk 3]
+### DOCUMENTS REQUIRED BUT NOT YET FILED
+1. Case Management Report [Source: court_order, chunk 3] - Required to be filed no later than ten days prior to the case management conference
+2. Proof of Service on all named defendants [Source: court_order, chunk 3] - Required to be filed no later than April 15, 2026
+3. NOT FOUND IN SOURCE DOCUMENTS - List of pending motions, estimated time to trial readiness, and mediation status
 
-**UPCOMING FILING DEADLINES**
-1. April 12, 2026 - Case Management Report to be filed with the court [Source: court_order, chunk 2]
-2. April 15, 2026 - Proof of service on all named defendants to be filed with the court [Source: court_order, chunk 3]
-3. April 22, 2026 - Case Management Conference [Source: court_order, chunk 1]
+### UPCOMING FILING DEADLINES
+1. April 12, 2026 - Case Management Report - Court: Miami-Dade County Courthouse
+2. April 15, 2026 - Proof of Service on all named defendants - Court: Miami-Dade County Courthouse
+3. April 22, 2026 - Case Management Conference - Court: Miami-Dade County Courthouse, Courtroom 5-3
 
-**OUTSTANDING ACTION ITEMS**
-1. Review title search and update to determine if the HOA needs to be named as a party [Source: servicer_email, chunk 3]
-2. Update records with the new payoff amount of $487,920.00 as of March 1, 2026 [Source: servicer_email, chunk 3]
-3. Prepare and file the Case Management Report by April 12, 2026 [Source: court_order, chunk 2]
-4. Prepare and file proof of service on all named defendants by April 15, 2026 [Source: court_order, chunk 3]
-5. Coordinate with the borrower's attorney, Rafael Mendez, for all future communications [Source: servicer_email, chunk 2]
-6. ACTION REQUIRED: Review the court order and ensure compliance with all requirements and deadlines to avoid sanctions [Source: court_order, chunk 2]
-
-Prepared on: April 18, 2026
-
-Court Name: Miami-Dade County Courthouse
-Case Number: 2025-FC-08891
-Judge's Name: The Honorable Judge Patricia Navarro
-
-Servicer Contact Information: 
-- Current Servicer: Wells Fargo (transferring to Nationstar/Mr. Cooper effective April 1, 2026)
-- New Servicer Address and Contact: NOT FOUND IN SOURCE DOCUMENTS 
-
-Current Payoff Amount: $487,920.00
-Date Last Updated: March 1, 2026 [Source: servicer_email, chunk 3]
+### OUTSTANDING ACTION ITEMS
+1. ACTION REQUIRED: Evaluate whether HOA must be named as party defendant in foreclosure complaint [Source: servicer_email, chunk 3]
+2. ACTION REQUIRED: Resubmit pending fee authorizations to new servicer after transfer date (April 1, 2026) [Source: servicer_email, chunk 2]
+3. ACTION REQUIRED: Update records with new payoff amount ($487,920.00 as of March 1, 2026) [Source: servicer_email, chunk 3]
+4. ACTION REQUIRED: Review and respond to borrower's counsel (Rafael Mendez at Mendez & Associates) [Source: servicer_email, chunk 2]
 
 ======================================================================
 EVIDENCE MANIFEST
 ======================================================================
 
-[Source: servicer_email, chunk 3] score=0.500
+[Source: servicer_email, chunk 10] score=0.504
+a party before the complaint goes out.
+
+Wells Fargo Servicing Transfer Unit
+
+[Source: servicer_email, chunk 9] score=0.504
+a party before the complaint goes out.
+
+Wells Fargo Servicing Transfer Unit
+
+[Source: servicer_email, chunk 2] score=0.469
+Please note: all pending fee authorizations under Wells Fargo will need to be resubmitted to the new servicer after the transfer date. Any invoices submitted to Wells Fargo after April 1 will be rejected.
+
+Additionally, we have received notification that the borrower has retained counsel. His attorney is Rafael Mendez at Mendez & Associates, (305) 555-0312, rmendez@mendezlaw.com. All future
+
+[Source: servicer_email, chunk 3] score=0.465
 endez at Mendez & Associates, (305) 555-0312, rmendez@mendezlaw.com. All future borrower communications should go through his office.
 
 The updated payoff amount as of March 1, 2026 is $487,920.00. Please update your records.
 
 Finally — the HOA has filed a lis pendens (see attached title update if you have it). Might want to have someone review whether we need to name them as a party before the
 
-[Source: servicer_email, chunk 4] score=0.462
-want to have someone review whether we need to name them as a party before the complaint goes out.
+[Source: title_search_page2, chunk 46] score=0.454
+fied prior to conveyance to Rodriguez)
+
+[Source: court_order, chunk 73] score=0.454
+Court Judge
+
+[Source: servicer_email, chunk 20] score=0.434
+fore the complaint goes out.
 
 Wells Fargo Servicing Transfer Unit
 
-[Source: court_order, chunk 74] score=0.404
-Court Judge
+[Source: court_order, chunk 0] score=0.427
+IN THE CIRCUIT COURT OF THE ELEVENTH JUDICIAL CIRCUIT
+IN AND FOR MIAMI-DADE COUNTY, FLORIDA
 
-[Source: court_order, chunk 73] score=0.404
-Court Judge
+CASE NO.: 2026-CA-003891
 
-[Source: court_order, chunk 1] score=0.390
-__________________
+NATIONSTAR MORTGAGE LLC D/B/A MR. COOPER,
+ Plaintiff,
+
+vs.
+
+CARLOS A. RODRIGUEZ; PALMETTO BAY HOMEOWNERS
+ASSOCIATION, INC.; UNKNOWN TENANT(S) IN POSSESSION,
+ Defendants.
+
+_______________________________________________
 
 ORDER SETTING CASE MANAGEMENT CONFERENCE
 
-THIS CAUSE having come before the Court, and the Court being
-otherwise fully advised in the premises, it is hereby
+THIS CAUSE having
 
-ORDERED AND ADJUDGED that:
+[Source: servicer_email, chunk 19] score=0.419
+efore the complaint goes out.
 
-1. A Case Management Conference is set for April 22, 2026 at
- 10:00 AM before the Honorable Judge Patricia Navarro,
- Courtroom 5-3, Miami-Dade County Courthouse,
- 73 W Flagler St, Miami, FL
+Wells Fargo Servicing Transfer Unit
 
-[Source: servicer_email, chunk 2] score=0.389
-Please note: all pending fee authorizations under Wells Fargo will need to be resubmitted to the new servicer after the transfer date. Any invoices submitted to Wells Fargo after April 1 will be rejected.
-
-Additionally, we have received notification that the borrower has retained counsel. His attorney is Rafael Mendez at Mendez & Associates, (305) 555-0312, rmendez@mendezlaw.com. All future
-
-[Source: servicer_email, chunk 11] score=0.333
+[Source: servicer_email, chunk 11] score=0.394
 party before the complaint goes out.
 
 Wells Fargo Servicing Transfer Unit
 
-[Source: court_order, chunk 71] score=0.327
-it Court Judge
-
-[Source: court_order, chunk 2] score=0.306
+[Source: court_order, chunk 2] score=0.350
 arro,
  Courtroom 5-3, Miami-Dade County Courthouse,
  73 W Flagler St, Miami, FL 33130.
@@ -101,7 +107,22 @@ arro,
  a. Current status of service on all defendants
  b. Any pending motions
 
-[Source: court_order, chunk 3] score=0.305
+[Source: court_order, chunk 1] score=0.332
+__________________
+
+ORDER SETTING CASE MANAGEMENT CONFERENCE
+
+THIS CAUSE having come before the Court, and the Court being
+otherwise fully advised in the premises, it is hereby
+
+ORDERED AND ADJUDGED that:
+
+I. A Case Management Conference is set for April 22, 2026 at
+ 10:00 AM before the Honorable Judge Patricia Navarro,
+ Courtroom 5-3, Miami-Dade County Courthouse,
+ 73 W Flagler St, Miami, FL
+
+[Source: court_order, chunk 3] score=0.317
 clude:
  a. Current status of service on all defendants
  b. Any pending motions
@@ -116,8 +137,11 @@ this 10th day of March, 2026.
 
  _________________________
 
-[Source: title_search_page1, chunk 0] score=0.237
-COMMONWEALTH LAND T1TLE INSURANCE COMPANY
+[Source: court_order, chunk 71] score=0.309
+it Court Judge
+
+[Source: title_search_page1, chunk 0] score=0.261
+COMMONWEALTH LAND TITLE INSURANCE COMPANY
 SCHEDULE B — EXCEPTIONS
 
 File No.: CLT-2025-08891
@@ -125,39 +149,47 @@ Effective Date: February 28, 2026
 Property: 15201 SW 88th Ave, Palmetto Bay, Florida 33157
 
 The following matters are exceptions to the title to the above-described
-property and are not covered by this policy:
+property and are not covered by this po1icy:
 
-1. Property taxes and assessments for the year 2025 and subsequent years,
+I. Property taxes and assessments for the year 2025 and subsequent years,
  which are a lien but
 
-[Source: title_search_page1, chunk 4] score=0.184
-tive covenants recorded in O.R. Book 12031, Page 892,
+[Source: title_search_page1, chunk 4] score=0.230
+tive covenants recorded in O.R. Book 12O31, Page 892,
  as amended by instrument recorded in O.R. Book 15677, Page 1021.
 
 NOTE: The chain of title shows the following sequence of ownership:
- - Maria Santos (fee simple, recorded 2OO3)
+ - Maria Santos (fee simple, recorded 2003)
  - Santos to Rodriguez, Car1os A. (warranty deed, recorded 2015)
- - Current vesting: CARLOS A. RODRIGUEZ, a sing1e man
+ - Current vesting: CARLOS A. RODR1GUEZ, a sing1e man
+
+[Source: court_order, chunk 40] score=0.228
+_
+ Hon. Patricia Navarro
+ Circuit Court Judge
 
 ======================================================================
 STYLE RULES APPLIED
 ======================================================================
-  • Always include county and state in the property address section
-  • Organize output into clearly labeled sections (e.g. LIENS, TAX STATUS, OWNERSHIP, OTHER MATTERS, REVIEWER NOTES)
-  • Include instrument numbers and recording details for every lien and encumbrance
-  • Add context to each lien, such as 'First Mortgage' and status, e.g. 'ASSIGNED'
-  • Highlight items that require action or review, using 'ACTION REQUIRED' or similar notation
-  • Separate tax information into its own section, including delinquency status and special assessments
-  • Add a section for reviewer notes, including actionable items that the attorney should address
-  • Include information to show a clean chain of title, such as prior owner and mortgage satisfaction
-  • Cross-reference external information, such as servicing transfer emails, to ensure accuracy and completeness
-  • Highlight delinquent taxes and other items that require attention, using 'DELINQUENT' or similar notation
-  • Always specify the date the document was prepared
-  • Include court name, case number, and judge's name in the document
-  • Organize tasks by urgency and importance using clear labels like URGENT, HIGH, and NORMAL
-  • Connect deadlines with specific filing requirements and actions needed
-  • Create a dedicated section for title concerns and potential issues
-  • Specify what action needs to be taken by each deadline, rather than just listing dates
-  • Connect and integrate information from all relevant documents into a cohesive narrative
-  • Provide servicer contact information, including address and any relevant changes
-  • Clearly state the current payoff amount and the date it was last updated
+  • Include county, state, and effective date in the header, e.g., 'County: Miami-Dade | State: Florida | Effective Date: February 28, 2026'
+  • Organize content into labeled sections (e.g., LIENS & ENCUMBRANCES, TAX STATUS, OWNERSHIP, OTHER MATTERS, REVIEWER NOTES) for clarity
+  • Include instrument numbers and recording details for every lien, e.g., 'Instrument No.: 2021-0123456 | Recorded: February 15, 2021'
+  • Provide lien position context, such as 'First Mortgage', and status, like 'ASSIGNED', for each lien
+  • Flag items requiring action with 'ACTION REQUIRED', e.g., 'ACTION REQUIRED: Evaluate whether HOA must be named as party defendant in foreclosure complaint'
+  • Separate tax information into its own section and highlight delinquency status, e.g., '2025 Taxes: DELINQUENT — $8,247.00'
+  • Include a reviewer notes section with actionable items for the attorney to address, e.g., 'Delinquent 2025 taxes must be addressed before sale'
+  • Include satisfaction of prior mortgages to show a clean chain of title, e.g., 'Santos mortgage fully satisfied prior to conveyance (Instrument 2015-0567890)'
+  • Cross-reference external evidence, such as emails or documents, to support claims, e.g., 'Cross-referenced the servicing transfer from the servicer email'
+  • Use specific numbers, dates, and instrument IDs instead of generic text, e.g., '$445,000.00' instead of 'a significant amount'
+  • Include relevant metadata, such as tax parcel numbers and special assessments, e.g., 'Tax Parcel: 33-5022-014-0290 | Special Assessment: $1,200.00/year'
+  • Clearly state current vesting and prior ownership, including conveyance methods, e.g., 'Current Vesting: Carlos A. Rodriguez, a single man (fee simple)'
+  • Use ### for section headers and ## for subsections, not plain text, to maintain consistency throughout the document
+  • Add document preparation date, court details, judge name, and case number from court order in the introduction section
+  • Replace flat list of developments with prioritized ACTION ITEMS ranked by urgency (e.g., URGENT, HIGH, NORMAL) for easy reference
+  • Provide servicer contact information, including name, address, and effective transfer date, to ensure correct correspondence
+  • Make deadlines actionable by specifying what needs to happen by each date, rather than just listing the dates
+  • Connect information across all relevant documents (e.g., title search, email, court order) into a unified picture to avoid inconsistencies
+  • Use specific numbers and amounts (e.g., $487,920.00, April 1, 2026) instead of generic text to ensure accuracy and clarity
+  • Order sections in a logical manner, such as introduction, action items, deadlines, and notes, to facilitate easy reading and reference
+  • Create a dedicated section for title concerns, including specific details (e.g., delinquent taxes, lien issues) to ensure these critical issues are addressed
+  • Provide source citations with document names and chunk numbers (e.g., 'servicer email: $487,920.00 as of 3/1/2026') to support claims and facilitate verification

@@ -127,7 +127,7 @@ def main() -> None:
     print("  improvement_comparison.txt         — side-by-side human-readable")
 
     if report.get("improvement_delta") is not None:
-        print(f"\n  Quality improvement: +{report['improvement_delta']} points (out of 24)")
+        print(f"\n  Quality improvement: +{report['improvement_delta']} points (out of 100)")
     print()
 
 

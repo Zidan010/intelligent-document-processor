@@ -75,18 +75,27 @@ You will be given:
 2. AN OPERATOR-EDITED VERSION (what a lawyer/processor corrected it to)
 3. KEY EDITS (a list of what changed and why, provided by the operator)
 
-Your task: extract REUSABLE STYLE PATTERNS - general rules that can be applied
+Your task: extract REUSABLE STYLE PATTERNS - specific, concrete rules that can be applied
 to ANY draft of this type (or any draft type) to make it better.
 
 For each pattern:
-- Give it a short name (3-6 words)
-- Write it as a clear instruction the AI should follow
-- Make it concrete and actionable, NOT vague
+- Give it a SHORT NAME (3-6 words) that's memorable
+- Write it as a SPECIFIC INSTRUCTION the AI should follow (not vague advice)
+- Include CONCRETE EXAMPLES where possible (e.g. "Use ### for section headers, not plain text")
+- Make it testable — a reviewer should be able to verify if the rule was followed
 
-Return ONLY valid JSON as a list of objects, each with "name" and "description" keys.
-Example: [{"name": "Use labeled sections", "description": "Always organize output into clearly labeled sections"}]
+IMPORTANT: Extract patterns about:
+  • Formatting and structure (markdown, headers, sections)
+  • Content organization (ordering, grouping, hierarchy)
+  • Specificity (numbers, dates, instrument IDs vs generic text)
+  • Clarity flags (ACTION REQUIRED, URGENT, etc)
+  • Metadata inclusion (dates, locations, case numbers in headers)
+  • Evidence linking (source citations with document names and chunk numbers)
 
-Aim for 6-10 high-quality patterns. Avoid redundancy.
+Return ONLY valid JSON as a list of objects with "name" and "description" keys.
+Example: [{"name": "Use markdown headers", "description": "Use ### for section headers and ##for subsections, not plain text"}]
+
+Aim for 8-12 high-quality, specific patterns. Avoid vague or redundant rules.
 
 ---
 SYSTEM DRAFT:
@@ -101,21 +110,23 @@ KEY EDITS PROVIDED BY OPERATOR:
 
 _SCORING_PROMPT = """You are evaluating the quality of a legal case management draft document.
 
-Score the draft on each of the following criteria (0-3 each):
+Score the draft on each of the following criteria (0-10 each):
 
-1. SECTION STRUCTURE - Are there clearly labeled sections (e.g. LIENS, TAX STATUS, ACTION ITEMS)?
-2. INSTRUMENT NUMBERS - Are recording instrument numbers included for all liens and encumbrances?
-3. ACTION FLAGS - Are items requiring attorney attention explicitly flagged (ACTION REQUIRED)?
-4. PRIORITIZATION - Are action items ranked by urgency (URGENT, HIGH, NORMAL)?
-5. CROSS-DOC SYNTHESIS - Does the draft connect information from multiple source documents?
-6. COMPLETENESS - Are all key facts from source documents included (contacts, dates, amounts)?
-7. REVIEWER NOTES - Is there a section with actionable attorney guidance?
-8. CITATION QUALITY - Are claims attributed to source documents?
+1. SECTION STRUCTURE (0-10) - Are sections clearly labeled with headers? Are they logically organized?
+2. INSTRUMENT NUMBERS (0-10) - Are recording numbers and dates included with specific details?
+3. ACTION ITEM FLAGGING (0-10) - Are urgent items clearly marked and easy to identify?
+4. PRIORITIZATION (0-10) - Are action items sorted by urgency or importance?
+5. CROSS-DOCUMENT SYNTHESIS (0-10) - Does the draft weave info from multiple source documents?
+6. COMPLETENESS (0-10) - Are all key facts, dates, amounts, and contacts present?
+7. REVIEWER NOTES & GUIDANCE (0-10) - Is there actionable attorney guidance in a clear section?
+8. CITATION & GROUNDING (0-10) - Are all claims attributed to source documents with [Source: X] markers?
+9. METADATA & CONTEXT (0-10) - Is location, date, case number, and parties clearly stated?
+10. READABILITY & USABILITY (0-10) - Is the draft easy to scan and use for case management?
 
-Scoring guide: 0=absent, 1=partial/weak, 2=good, 3=excellent
+Scoring guide: 0=absent/poor, 3=partial, 5=adequate, 7=good, 10=excellent
 
 Return ONLY valid JSON. Use exactly this structure (replace 0s with real scores):
-{"scores": {"section_structure": 0, "instrument_numbers": 0, "action_flags": 0, "prioritization": 0, "cross_doc_synthesis": 0, "completeness": 0, "reviewer_notes": 0, "citation_quality": 0}, "total": 0, "summary": "your 2-3 sentence assessment here"}
+{"scores": {"section_structure": 0, "instrument_numbers": 0, "action_item_flagging": 0, "prioritization": 0, "cross_doc_synthesis": 0, "completeness": 0, "reviewer_notes": 0, "citation_quality": 0, "metadata": 0, "readability": 0}, "total": 0, "summary": "your 2-3 sentence assessment here"}
 
 DRAFT TO EVALUATE:
 %(draft_text)s
@@ -281,11 +292,12 @@ def demonstrate_improvement(
     if "total" in score_a and "total" in score_b:
         delta = score_b["total"] - score_a["total"]
         report["improvement_delta"] = delta
+        pct_improvement = (delta / 100 * 100) if delta >= 0 else (delta / 100 * 100)
         print(
             f"\n  ✅ IMPROVEMENT RESULT: "
-            f"baseline={score_a['total']}/24, "
-            f"improved={score_b['total']}/24, "
-            f"delta=+{delta}"
+            f"baseline={score_a['total']}/100, "
+            f"improved={score_b['total']}/100, "
+            f"delta=+{delta} points ({pct_improvement:+.1f}%)"
         )
     else:
         print("  [WARN] Could not compute delta — scoring returned errors")
@@ -316,6 +328,10 @@ def _save_comparison_txt(
     path: Path,
 ) -> None:
     sep = "=" * 70
+    baseline_total = score_a.get('total', 0)
+    improved_total = score_b.get('total', 0)
+    delta = improved_total - baseline_total
+    
     lines = [
         sep,
         "IMPROVEMENT DEMONSTRATION — SIDE BY SIDE COMPARISON",
@@ -325,17 +341,17 @@ def _save_comparison_txt(
         *[f"  • {r}" for r in rules],
         "",
         sep,
-        "SCORES",
+        "SCORES (0-100 scale)",
         sep,
-        f"  Baseline : {score_a.get('total', 'N/A')}/24",
-        f"  Improved : {score_b.get('total', 'N/A')}/24",
-        f"  Delta    : +{score_b.get('total', 0) - score_a.get('total', 0)}",
+        f"  Baseline : {baseline_total}/100",
+        f"  Improved : {improved_total}/100",
+        f"  Delta    : +{delta} points",
         "",
         "Baseline breakdown:",
-        *[f"    {k}: {v}" for k, v in score_a.get("scores", {}).items()],
+        *[f"    {k}: {v}/10" for k, v in score_a.get("scores", {}).items()],
         "",
         "Improved breakdown:",
-        *[f"    {k}: {v}" for k, v in score_b.get("scores", {}).items()],
+        *[f"    {k}: {v}/10" for k, v in score_b.get("scores", {}).items()],
         "",
         sep,
         "BASELINE DRAFT",

@@ -1,24 +1,22 @@
 Document Checklist — Rodriguez, Carlos A. (2025-FC-08891)
 
-## DOCUMENTS ON FILE
-1. Title search page 1 [Source: title_search_page1, chunk 0] - Covers: Schedule B exceptions from title search, Effective Date: February 28, 2026
-2. Title search page 2 [Source: title_search_page1, chunk 4] - Covers: Legal description, tax info, judgment search results, Effective Date: NOT FOUND IN SOURCE DOCUMENTS
-3. Servicer email [Source: servicer_email, chunk 2] - Covers: Servicing transfer notice with multiple instructions, Effective Date: NOT FOUND IN SOURCE DOCUMENTS
-4. Court order [Source: court_order, chunk 1] - Covers: Case management conference order, Effective Date: March 10, 2026
+DOCUMENTS ON FILE
+1. Title search page 1 [Source: title_search_page1] - Covers exceptions to the title, including property taxes and assessments, and restrictive covenants. Effective date: February 28, 2026.
+2. Title search page 2 [Source: title_search_page2] - Covers legal description, tax info, judgment search results, and vesting information. Effective date: NOT FOUND IN SOURCE DOCUMENTS.
+3. Servicer email [Source: servicer_email] - Covers servicing transfer notice, payoff amount, borrower's retained counsel, and HOA lis pendens. Effective date: NOT FOUND IN SOURCE DOCUMENTS.
+4. Court order [Source: court_order] - Covers case management conference order, including conference date, time, and requirements for the Case Management Report. Effective date: March 10, 2026.
 
-## DOCUMENTS REQUIRED BUT NOT YET FILED
-1. Case Management Report [Source: court_order, chunk 2] - Required to be filed 10 days prior to the case management conference
-2. Proof of service on all named defendants [Source: court_order, chunk 3] - Required to be filed by April 15, 2026
-3. Complaint [Source: servicer_email, chunk 11] - Mentioned as needing review regarding naming the HOA as a party
+DOCUMENTS REQUIRED BUT NOT YET FILED
+1. Case Management Report [Source: court_order, chunk 3] - Required by the court order, but not yet filed.
+2. Proof of service on all named defendants [Source: court_order, chunk 3] - Required to be filed with the Court no later than April 15, 2026.
+3. Complaint [Source: servicer_email, chunk 2] - Needs to be filed, but the exact deadline is NOT FOUND IN SOURCE DOCUMENTS.
 
-## UPCOMING FILING DEADLINES
-1. April 12, 2026 — Case Management Report — Court
-2. April 15, 2026 — Proof of service on all named defendants — Court
-3. Before April 22, 2026 — Complaint — Court
+UPCOMING FILING DEADLINES
+1. April 15, 2026 - Proof of service on all named defendants [Source: court_order, chunk 3] - Court.
+2. Ten days prior to the conference (April 12, 2026) - Case Management Report [Source: court_order, chunk 2] - Court.
+3. April 22, 2026 - Case Management Conference [Source: court_order, chunk 1] - Court.
 
-## OUTSTANDING ACTION ITEMS
-1. Review whether the HOA needs to be named as a party before filing the complaint [Source: servicer_email, chunk 11]
-2. Resubmit pending fee authorizations to the new servicer after the transfer date [Source: servicer_email, chunk 2]
-3. ACTION REQUIRED: Determine the current status of service on all defendants for the Case Management Report [Source: court_order, chunk 2]
-4. ACTION REQUIRED: Review the updated payoff amount and update records [Source: servicer_email, chunk 3]
-5. ACTION REQUIRED: Coordinate with the borrower's attorney, Rafael Mendez, for all future borrower communications [Source: servicer_email, chunk 2]
+OUTSTANDING ACTION ITEMS
+1. ACTION REQUIRED: Review whether the HOA needs to be named as a party before the complaint goes out [Source: servicer_email, chunk 3].
+2. ACTION REQUIRED: Update records with the new payoff amount ($487,920.00) and servicer transfer information [Source: servicer_email, chunk 2].
+3. ACTION REQUIRED: Coordinate with borrower's counsel (Rafael Mendez) for all future borrower communications [Source: servicer_email, chunk 2].
